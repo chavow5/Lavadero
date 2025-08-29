@@ -4,9 +4,10 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="bg-blue-900">
-      <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="bg-black/50 backdrop-blur-md fixed w-full z-20">
+      <div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8">
         <div className="relative flex items-center justify-between">
+          {/* Logo */}
           <a
             href="/"
             aria-label="Lavadero"
@@ -28,186 +29,61 @@ export const Nav = () => {
               <rect x="14" y="1" width="7" height="6" />
               <rect x="14" y="11" width="7" height="12" />
             </svg>
-            <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+            <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase">
               Lavadero
             </span>
           </a>
+
+          {/* Links desktop */}
           <ul className="hidden space-x-8 lg:flex">
-            <li>
-              <a
-                href="#turnos"
-                aria-label="Turnos"
-                title="Turnos"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
-              >
-                Turnos
-              </a>
-            </li>
-            <li>
-              <a
-                href="#quienes-somos"
-                aria-label="Quiénes somos"
-                title="Quiénes somos"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
-              >
-                Quiénes somos
-              </a>
-            </li>
-            <li>
-              <a
-                href="#servicios"
-                aria-label="Nuestros servicios"
-                title="Nuestros servicios"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
-              >
-                Nuestros servicios
-              </a>
-            </li>
-            <li>
-              <a
-                href="#contacto"
-                aria-label="Contacto"
-                title="Contacto"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
-              >
-                Contacto
-              </a>
-            </li>
+            <li><a href="#turnos" className="text-white hover:text-teal-400 transition">Turnos</a></li>
+            <li><a href="#quienes-somos" className="text-white hover:text-teal-400 transition">Quiénes somos</a></li>
+            <li><a href="#servicios" className="text-white hover:text-teal-400 transition">Servicios</a></li>
+            <li><a href="#contacto" className="text-white hover:text-teal-400 transition">Contacto</a></li>
             <li>
               <a
                 href="#reservar-turno"
-                aria-label="Reservar Turno"
-                title="Reservar Turno"
-                className="inline-flex items-center justify-center h-7 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-500 hover:bg-teal-700 focus:shadow-outline focus:outline-none"
+                className="bg-teal-500 hover:bg-teal-700 text-white px-5 py-2 rounded-md shadow-md transition"
               >
                 Reservar Turno
               </a>
             </li>
           </ul>
+
+          {/* Botón menú mobile */}
           <div className="lg:hidden">
             <button
               aria-label="Abrir menú"
-              title="Abrir menú"
-              className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
+              className="p-2 text-white"
               onClick={() => setIsMenuOpen(true)}
             >
-              <svg className="w-5 text-gray-100" viewBox="0 0 24 24">
-                <path
-                  fill="currentColor"
-                  d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
-                />
-                <path
-                  fill="currentColor"
-                  d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z"
-                />
-                <path
-                  fill="currentColor"
-                  d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"
-                />
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </button>
+
+            {/* Menú mobile */}
             {isMenuOpen && (
-              <div className="absolute top-0 left-0 w-full">
-                <div className="p-5 bg-white border rounded shadow-sm">
-                  <div className="flex items-center justify-between mb-4">
-                    <div>
-                      <a
-                        href="/"
-                        aria-label="Lavadero"
-                        title="Lavadero"
-                        className="inline-flex items-center"
-                      >
-                        <svg
-                          className="w-8 text-blue-500"
-                          viewBox="0 0 24 24"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeMiterlimit="10"
-                          stroke="currentColor"
-                          fill="none"
-                        >
-                          <rect x="3" y="1" width="7" height="12" />
-                          <rect x="3" y="17" width="7" height="6" />
-                          <rect x="14" y="1" width="7" height="6" />
-                          <rect x="14" y="11" width="7" height="12" />
-                        </svg>
-                        <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                          Lavadero
-                        </span>
-                      </a>
-                    </div>
-                    <div>
-                      <button
-                        aria-label="Cerrar menú"
-                        title="Cerrar menú"
-                        className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                        onClick={() => setIsMenuOpen(false)}
-                      >
-                        <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
-                          <path
-                            fill="currentColor"
-                            d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
-                          />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
-                  <nav>
-                    <ul className="space-y-4">
-                      <li>
-                        <a
-                          href="#turnos"
-                          aria-label="Turnos"
-                          title="Turnos"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-500"
-                        >
-                          Turnos
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#quienes-somos"
-                          aria-label="Quiénes somos"
-                          title="Quiénes somos"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-500"
-                        >
-                          Quiénes somos
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#servicios"
-                          aria-label="Nuestros servicios"
-                          title="Nuestros servicios"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-500"
-                        >
-                          Nuestros servicios
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#contacto"
-                          aria-label="Contacto"
-                          title="Contacto"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-500"
-                        >
-                          Contacto
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#reservar-turno"
-                          aria-label="Reservar Turno"
-                          title="Reservar Turno"
-                          className="inline-flex items-center justify-center h-10 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-500 hover:bg-teal-700 focus:shadow-outline focus:outline-none"
-                        >
-                          Reservar Turno
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
+              <div className="absolute top-0 left-0 w-full bg-white p-6 shadow-lg">
+                <div className="flex justify-between items-center mb-4">
+                  <span className="font-bold text-lg text-blue-600">Lavadero</span>
+                  <button onClick={() => setIsMenuOpen(false)}>
+                    <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
                 </div>
+                <nav>
+                  <ul className="space-y-4 text-gray-700">
+                    <li><a href="#turnos">Turnos</a></li>
+                    <li><a href="#quienes-somos">Quiénes somos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li>
+                      <a href="#reservar-turno" className="block bg-teal-500 text-white text-center py-2 rounded-md">Reservar Turno</a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             )}
           </div>

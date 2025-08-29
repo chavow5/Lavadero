@@ -1,28 +1,29 @@
-import { useState } from 'react';
 import Nav from './components/Nav'; 
-
+import ImagenComparacion from './components/ImagenComparacion';
+import Aboutus from './components/AboutUs';
+import Footer from './components/Footer';
+import Servicios from './components/Servicios';
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <Nav /> 
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+    <div
+      className="min-h-screen w-full bg-cover bg-center relative"
+      style={{ backgroundImage: "url('/img/fondolavado.png')" }}
+    >
+      {/* Overlay oscuro en toda la página */}
+      <div className="absolute inset-0 bg-black/70"></div>
+
+      {/* Contenido encima del overlay */}
+      <div className="relative z-10">
+        {/* Componentes*/}
+        <Nav /> 
+        <ImagenComparacion />
+        <Aboutus/>
+        <Servicios/>
+        <Footer/>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   );
 }
 
