@@ -3,6 +3,7 @@ import ImagenComparacion from './components/ImagenComparacion';
 import Aboutus from './components/AboutUs';
 import Footer from './components/Footer';
 import Servicios from './components/Servicios';
+import Turnos from './components/Turnos';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <ImagenComparacion />
         <Aboutus/>
         <Servicios/>
+        <Turnos/>
         <Footer/>
       </div>
     </div>
