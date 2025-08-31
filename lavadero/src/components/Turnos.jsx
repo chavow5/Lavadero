@@ -33,7 +33,7 @@ export const Turnos = () => {
             {/* Calendly inline widget (usa 100% del contenedor; minWidth para evitar colapsos) */}
             <div
               className="calendly-inline-widget w-full h-full"
-              data-url="https://calendly.com/davidrmrz10/30min"
+              data-url="https://calendly.com/davidrmrz10/lavaderoadomicilio"
               style={{ minWidth: '320px', width: '100%', height: '100%' }}
             />
           </div>
