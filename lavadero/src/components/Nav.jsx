@@ -36,9 +36,9 @@ export const Nav = () => {
 
           {/* Links desktop */}
           <ul className="hidden space-x-8 lg:flex">
-            <li><a href="#turnos" className="text-white hover:text-teal-400 transition">Turnos</a></li>
-            <li><a href="#quienes-somos" className="text-white hover:text-teal-400 transition">Quiénes somos</a></li>
+            <li><a href="#aboutus" className="text-white hover:text-teal-400 transition">Quiénes somos</a></li>
             <li><a href="#servicios" className="text-white hover:text-teal-400 transition">Servicios</a></li>
+            <li><a href="#turnos" className="text-white hover:text-teal-400 transition">Turnos</a></li>
             <li><a href="#contacto" className="text-white hover:text-teal-400 transition">Contacto</a></li>
             <li>
               <a
@@ -75,9 +75,9 @@ export const Nav = () => {
                 </div>
                 <nav>
                   <ul className="space-y-4 text-gray-700">
-                    <li><a href="#turnos">Turnos</a></li>
-                    <li><a href="#quienes-somos">Quiénes somos</a></li>
+                    <li><a href="#aboutus">Quiénes somos</a></li>
                     <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#turnos">Turnos</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                     <li>
                       <a href="#reservar-turno" className="block bg-teal-500 text-white text-center py-2 rounded-md">Reservar Turno</a>

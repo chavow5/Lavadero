@@ -19,7 +19,7 @@ export const ImagenComparacion = () => {
             sliderLineColor="#fff"
             sliderLineWidth={3}
             handle={
-              <div className="w-6 h-6 sm:w-8 sm:h-8 bg-white rounded-full shadow-md border-2 border-blue-500" />
+              <div className="w-6 h-6 sm:w-8 sm:h-8 bg-blue-500 rounded-full shadow-md border-2 border-White-500" />
             }
           />
         </div>

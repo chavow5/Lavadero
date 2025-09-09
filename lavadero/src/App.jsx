@@ -4,6 +4,7 @@ import Aboutus from './components/AboutUs';
 import Footer from './components/Footer';
 import Servicios from './components/Servicios';
 import Turnos from './components/Turnos';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Aboutus/>
         <Servicios/>
         <Turnos/>
+        <Contact/> 
         <Footer/>
       </div>
     </div>

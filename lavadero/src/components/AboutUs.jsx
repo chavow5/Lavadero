@@ -1,6 +1,9 @@
 export const Aboutus = () => {
   return (
-    <div className="flex flex-col justify-between max-w-xl px-4 mx-auto lg:pt-8 lg:flex-row md:px-8 lg:max-w-screen-xl">
+    <div
+      id="aboutus"
+      className="flex flex-col justify-between max-w-xl px-4 mx-auto lg:pt-8 lg:flex-row md:px-8 lg:max-w-screen-xl"
+    >
       <div className="pt-8 mb-12 lg:mb-0 lg:pt-16 lg:max-w-lg lg:pr-5">
         <div className="max-w-xl mb-6">
           <div>
@@ -9,7 +12,7 @@ export const Aboutus = () => {
             </p>
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-            Hola, Mi nombre es David 
+            Hola, Mi nombre es David
             <br className="hidden md:block" />
             y este es mi emprendimiento 🚗🧽💦{' '}
             <span className="inline-block text-teal-300">
@@ -29,8 +32,8 @@ export const Aboutus = () => {
             ¿Por qué hago esto?
           </h3>
           <p className="text-base text-gray-200 md:text-lg">
-            Porque en un lavadero tradicional sentía que perdía tiempo valioso esperando. 
-            Con los lavados a domicilio, ofrezco una solución práctica para que no tengas que interrumpir tu día ni desperdiciar horas en un lavadero. 
+            Porque en un lavadero tradicional sentía que perdía tiempo valioso esperando.
+            Con los lavados a domicilio, ofrezco una solución práctica para que no tengas que interrumpir tu día ni desperdiciar horas en un lavadero.
             Mi objetivo es brindarte comodidad y calidad, mientras aprovechas tu tiempo al máximo.
           </p>
         </div>

@@ -13,7 +13,7 @@ export const Turnos = () => {
 
   return (
     <section
-  id="reservar-turno"
+  id="turnos"
   className="relative w-full min-h-screen flex items-center justify-center px-4 text-white bg-cover bg-center"
   style={{ backgroundImage: "url('/img/fondo-lavado.jpg')" }}
 >
@@ -26,9 +26,12 @@ export const Turnos = () => {
       <p className="inline-block px-3 py-px mb-2 text-xs font-semibold tracking-wider text-teal-100 uppercase rounded-full bg-teal-500">
         Reservá tu turno
       </p>
-      <h2 className="text-2xl font-bold text-white">Elegí día y horario</h2>
+      <p className="text-xs text-yellow-200 mb-2">
+  Haz clic en <span className="font-semibold">OK</span> para confirmar las cookies. (En celular, el aviso puede tapar el calendario)
+</p>
+      <h2 className="text-2xl font-bold text-white">Elegí un día y un horario</h2>
       <p className="mt-2 text-sm text-gray-300">
-        Seleccioná un turno de 30 minutos. Después confirmamos por WhatsApp los detalles y la dirección.
+        Seleccioná un turno de 90 minutos. Después confirmamos por WhatsApp los detalles y la dirección.
       </p>
     </div>
 
@@ -43,6 +46,7 @@ export const Turnos = () => {
     <p className="mt-4 text-xs text-gray-400 text-center">
       Si tenés problemas para reservar, escribinos por WhatsApp y te ayudamos. 
      - <a href="https://wa.me/5493804201334" className="text-teal-400 underline">3804201334</a>
+     <br />y si ya reservaste, escribinos para terminar de confirmar la reserva.
     </p>
   </div>
 </section>
