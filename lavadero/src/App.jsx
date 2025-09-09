@@ -1,21 +1,20 @@
-import Nav from './components/Nav'; 
-import ImagenComparacion from './components/ImagenComparacion';
-import Aboutus from './components/AboutUs';
-import Footer from './components/Footer';
-import Servicios from './components/Servicios';
-import Turnos from './components/Turnos';
-import Contact from './components/Contact';
+import Nav from "./components/Nav";
+import ImagenComparacion from "./components/ImagenComparacion";
+import Aboutus from "./components/AboutUs";
+import Footer from "./components/Footer";
+import Servicios from "./components/Servicios";
+import Turnos from "./components/Turnos";
+import Contact from "./components/Contact";
 
 function App() {
-
   return (
     <div
       className="min-h-screen w-full bg-cover bg-center relative"
       style={{
         backgroundImage: "url('/img/fondolavado.jpg')",
-        backgroundRepeat: 'repeat',      // repite la imagen
-        backgroundSize: '1320px',         // tamaño del tile (ajustalo)
-        backgroundPosition: 'center'
+        backgroundRepeat: "repeat", // repite la imagen
+        backgroundSize: "1320px", // tamaño del tile (ajustalo)
+        backgroundPosition: "center",
       }}
     >
       {/* Overlay oscuro en toda la página */}
@@ -24,13 +23,13 @@ function App() {
       {/* Contenido encima del overlay */}
       <div className="relative z-10">
         {/* Componentes*/}
-        <Nav /> 
+        <Nav />
         <ImagenComparacion />
-        <Aboutus/>
-        <Servicios/>
-        <Turnos/>
-        <Contact/> 
-        <Footer/>
+        <Aboutus />
+        <Servicios />
+        <Turnos />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

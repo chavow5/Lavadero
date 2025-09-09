@@ -13,8 +13,7 @@ export const Aboutus = () => {
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
             Hola, Mi nombre es David
-            <br className="hidden md:block" />
-            y este es mi emprendimiento 🚗🧽💦{' '}
+            <br className="hidden md:block" />y este es mi emprendimiento 🚗🧽💦{" "}
             <span className="inline-block text-teal-300">
               Lavadero a Domicilio
             </span>
@@ -22,19 +21,21 @@ export const Aboutus = () => {
           <p className="text-base text-gray-200 md:text-lg">
             Empezó como una solución para mi familia y amigos, y hoy quiero
             compartirlo con vos. Mientras algunos trabajan en su profesión, yo
-            me dedico a dejar los autos como nuevos.
-            Ofrezco varios servicios de lavado de autos a domicilio,
-            utilizando productos profesionales y técnicas avanzadas
-            para dejar tu vehículo impecable sin salir de casa o del trabajo.
+            me dedico a dejar los autos como nuevos. Ofrezco varios servicios de
+            lavado de autos a domicilio, utilizando productos profesionales y
+            técnicas avanzadas para dejar tu vehículo impecable sin salir de
+            casa o del trabajo.
           </p>
           <br />
           <h3 className="text-2xl font-bold text-white mb-4">
             ¿Por qué hago esto?
           </h3>
           <p className="text-base text-gray-200 md:text-lg">
-            Porque en un lavadero tradicional sentía que perdía tiempo valioso esperando.
-            Con los lavados a domicilio, ofrezco una solución práctica para que no tengas que interrumpir tu día ni desperdiciar horas en un lavadero.
-            Mi objetivo es brindarte comodidad y calidad, mientras aprovechas tu tiempo al máximo.
+            Porque en un lavadero tradicional sentía que perdía tiempo valioso
+            esperando. Con los lavados a domicilio, ofrezco una solución
+            práctica para que no tengas que interrumpir tu día ni desperdiciar
+            horas en un lavadero. Mi objetivo es brindarte comodidad y calidad,
+            mientras aprovechas tu tiempo al máximo.
           </p>
         </div>
         {/* Botones */}

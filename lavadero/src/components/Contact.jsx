@@ -25,7 +25,7 @@ Mensaje: ${form.mensaje}`;
       className="px-4 py-12 mx-auto max-w-xl text-center text-white"
     >
       <h2 className="text-2xl font-bold mb-6">Contacto</h2>
-       <div className="mt-8 text-center bg-yellow-500/10 border border-yellow-500 rounded-lg p-4">
+      <div className="mt-8 text-center bg-yellow-500/10 border border-yellow-500 rounded-lg p-4">
         <p className="text-sm sm:text-base text-yellow-300 font-semibold">
           📌 Una vez realizado el turno, por favor confirmá tu horario enviando
           un mensaje a nuestro

@@ -12,7 +12,8 @@ export const Servicios = () => {
           Lavados a domicilio para Auto, Moto y Camioneta
         </h2>
         <p className="text-base text-gray-200 md:text-lg">
-          Servicio profesional a domicilio: productos de calidad, técnicas cuidadosas y opciones según el tipo de vehículo.
+          Servicio profesional a domicilio: productos de calidad, técnicas
+          cuidadosas y opciones según el tipo de vehículo.
         </p>
       </div>
 
@@ -21,12 +22,34 @@ export const Servicios = () => {
         <div className="flex flex-col justify-between p-6 bg-black/40 border border-white/10 rounded-xl shadow-md">
           <div>
             <div className="flex items-center space-x-3">
-              <svg className="w-8 h-8 text-teal-400" viewBox="0 0 24 24" fill="none">
-                <path d="M3 12l1.5-4.5h15L21 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <rect x="3" y="12" width="18" height="6" rx="1.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              <svg
+                className="w-8 h-8 text-teal-400"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M3 12l1.5-4.5h15L21 12"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <rect
+                  x="3"
+                  y="12"
+                  width="18"
+                  height="6"
+                  rx="1.5"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
               </svg>
               <div>
-                <h3 className="text-xl font-semibold text-white drop-shadow">Auto</h3>
+                <h3 className="text-xl font-semibold text-white drop-shadow">
+                  Auto
+                </h3>
                 <p className="text-sm text-gray-300">Compacto / Mediano</p>
               </div>
             </div>
@@ -54,7 +77,9 @@ export const Servicios = () => {
             >
               Reservar Turno
             </a>
-            <p className="mt-3 text-xs text-gray-400">Duración aprox. 45–60 min. Coordinación por WhatsApp.</p>
+            <p className="mt-3 text-xs text-gray-400">
+              Duración aprox. 45–60 min. Coordinación por WhatsApp.
+            </p>
           </div>
         </div>
 
@@ -62,14 +87,40 @@ export const Servicios = () => {
         <div className="flex flex-col justify-between p-6 bg-black/40 border border-white/10 rounded-xl shadow-md">
           <div>
             <div className="flex items-center space-x-3">
-              <svg className="w-8 h-8 text-teal-400" viewBox="0 0 24 24" fill="none">
-                <path d="M3 12h3l2-4h6l2 4h2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <circle cx="7" cy="18" r="2" stroke="currentColor" strokeWidth="1.5"/>
-                <circle cx="17" cy="18" r="2" stroke="currentColor" strokeWidth="1.5"/>
+              <svg
+                className="w-8 h-8 text-teal-400"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M3 12h3l2-4h6l2 4h2"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <circle
+                  cx="7"
+                  cy="18"
+                  r="2"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                />
+                <circle
+                  cx="17"
+                  cy="18"
+                  r="2"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                />
               </svg>
               <div>
-                <h3 className="text-xl font-semibold text-white drop-shadow">Moto</h3>
-                <p className="text-sm text-gray-300">Scooter / Motos pequeñas</p>
+                <h3 className="text-xl font-semibold text-white drop-shadow">
+                  Moto
+                </h3>
+                <p className="text-sm text-gray-300">
+                  Scooter / Motos pequeñas
+                </p>
               </div>
             </div>
 
@@ -95,7 +146,9 @@ export const Servicios = () => {
             >
               Reservar Turno
             </a>
-            <p className="mt-3 text-xs text-gray-400">Duración aprox. 20–30 min.</p>
+            <p className="mt-3 text-xs text-gray-400">
+              Duración aprox. 20–30 min.
+            </p>
           </div>
         </div>
 
@@ -103,13 +156,37 @@ export const Servicios = () => {
         <div className="flex flex-col justify-between p-6 bg-black/40 border border-white/10 rounded-xl shadow-md">
           <div>
             <div className="flex items-center space-x-3">
-              <svg className="w-8 h-8 text-teal-400" viewBox="0 0 24 24" fill="none">
-                <path d="M3 9h13l4 4v3h-2.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <circle cx="7" cy="18" r="2" stroke="currentColor" strokeWidth="1.5"/>
-                <circle cx="17" cy="18" r="2" stroke="currentColor" strokeWidth="1.5"/>
+              <svg
+                className="w-8 h-8 text-teal-400"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M3 9h13l4 4v3h-2.5"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <circle
+                  cx="7"
+                  cy="18"
+                  r="2"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                />
+                <circle
+                  cx="17"
+                  cy="18"
+                  r="2"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                />
               </svg>
               <div>
-                <h3 className="text-xl font-semibold text-white drop-shadow">Camioneta</h3>
+                <h3 className="text-xl font-semibold text-white drop-shadow">
+                  Camioneta
+                </h3>
                 <p className="text-sm text-gray-300">4x4 / Pick-up / SUV</p>
               </div>
             </div>
@@ -136,13 +213,17 @@ export const Servicios = () => {
             >
               Reservar Turno
             </a>
-            <p className="mt-3 text-xs text-gray-400">Duración aprox. 60–90 min. Consultar extras.</p>
+            <p className="mt-3 text-xs text-gray-400">
+              Duración aprox. 60–90 min. Consultar extras.
+            </p>
           </div>
         </div>
       </div>
 
       <p className="mt-8 text-sm text-gray-400 text-center max-w-2xl mx-auto">
-        Precios orientativos. El precio final puede variar según el estado del vehículo y la ubicación. Para servicios especiales o mayor distancia, consultanos por WhatsApp.
+        Precios orientativos. El precio final puede variar según el estado del
+        vehículo y la ubicación. Para servicios especiales o mayor distancia,
+        consultanos por WhatsApp.
       </p>
     </section>
   );
