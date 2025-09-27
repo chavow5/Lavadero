@@ -9,7 +9,7 @@ export const Servicios = () => {
           Nuestros Servicios
         </p>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl md:mx-auto drop-shadow-lg">
-          Lavados a domicilio para Auto, Moto y Camioneta
+          Ofrecemos Lavados a domicilio para Autos, Motos y Camionetas
         </h2>
         <p className="text-base text-gray-200 md:text-lg">
           Servicio profesional a domicilio: productos de calidad, técnicas
@@ -18,71 +18,6 @@ export const Servicios = () => {
       </div>
 
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {/* Auto */}
-        <div className="flex flex-col justify-between p-6 bg-black/40 border border-white/10 rounded-xl shadow-md">
-          <div>
-            <div className="flex items-center space-x-3">
-              <svg
-                className="w-8 h-8 text-teal-400"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
-                <path
-                  d="M3 12l1.5-4.5h15L21 12"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <rect
-                  x="3"
-                  y="12"
-                  width="18"
-                  height="6"
-                  rx="1.5"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-              <div>
-                <h3 className="text-xl font-semibold text-white drop-shadow">
-                  Auto
-                </h3>
-                <p className="text-sm text-gray-300">Compacto / Mediano</p>
-              </div>
-            </div>
-
-            {/* Precio centrado abajo del título */}
-            <div className="mt-4 text-center">
-              <div className="inline-flex items-baseline text-3xl font-bold text-white drop-shadow-lg">
-                $2.500
-              </div>
-              <div className="text-sm text-gray-300">Servicio básico</div>
-            </div>
-
-            <ul className="mt-6 space-y-2 text-gray-200">
-              <li>Lavado exterior a mano</li>
-              <li>Secado con microfibra y detallado de llantas</li>
-              <li>Limpieza de vidrios y zócalos</li>
-              <li>Desplazamiento hasta 10 km incluido</li>
-            </ul>
-          </div>
-
-          <div className="mt-6">
-            <a
-              href="#reservar-turno"
-              className="inline-block w-full text-center bg-teal-500 hover:bg-teal-700 text-white font-semibold py-3 px-4 rounded-md shadow-md transition"
-            >
-              Reservar Turno
-            </a>
-            <p className="mt-3 text-xs text-gray-400">
-              Duración aprox. 45–60 min. Coordinación por WhatsApp.
-            </p>
-          </div>
-        </div>
-
         {/* Moto */}
         <div className="flex flex-col justify-between p-6 bg-black/40 border border-white/10 rounded-xl shadow-md">
           <div>
@@ -116,26 +51,26 @@ export const Servicios = () => {
               </svg>
               <div>
                 <h3 className="text-xl font-semibold text-white drop-shadow">
-                  Moto
+                  Motos
                 </h3>
                 <p className="text-sm text-gray-300">
-                  Scooter / Motos pequeñas
+                  Moto Pequeñas y Grandes
                 </p>
               </div>
             </div>
 
-            <div className="mt-4 text-center">
-              <div className="inline-flex items-baseline text-3xl font-bold text-white drop-shadow-lg">
-                $1.500
+            <div className="mt-4 text-center relative">
+              <div className="inline-flex items-baseline text-3xl font-bold text-white px-4 py-2 rounded-2xl relative backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
+                $6.000
+                <span className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-white/20 to-transparent opacity-30"></span>
               </div>
-              <div className="text-sm text-gray-300">Rápido y eficaz</div>
+              <div className="text-sm text-gray-300 mt-2">Rápido y eficaz</div>
             </div>
 
             <ul className="mt-6 space-y-2 text-gray-200">
               <li>Lavado exterior y cuidado de plásticos</li>
               <li>Secado y nutrición de plásticos</li>
               <li>Limpieza de casco (si corresponde)</li>
-              <li>Desplazamiento incluido hasta 10 km</li>
             </ul>
           </div>
 
@@ -152,10 +87,99 @@ export const Servicios = () => {
           </div>
         </div>
 
+        {/* Auto */}
+        <div className="flex flex-col justify-between p-6 bg-black/40 border border-white/10 rounded-xl shadow-md">
+          <div>
+            <div className="flex items-center space-x-3 mb-2">
+              <svg
+                className="w-8 h-8 text-teal-400"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M3 12l1.5-4.5h15L21 12"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <rect
+                  x="3"
+                  y="12"
+                  width="18"
+                  height="6"
+                  rx="1.5"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+              <div>
+                <h3 className="text-xl font-semibold text-white drop-shadow">
+                  Autos
+                </h3>
+                <p className="text-sm text-gray-300">Medianos</p>
+              </div>
+            </div>
+
+            {/* Express */}
+            <div className="mt-2">
+              <div className="flex items-center justify-between">
+                <span className="font-semibold text-teal-300">Express</span>
+                <div className="relative inline-flex items-baseline text-2xl font-bold text-white px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
+                  $7.500
+                  <span className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-white/20 to-transparent opacity-30"></span>
+                </div>
+              </div>
+              <ul className="mt-2 mb-2 text-gray-200 text-sm list-disc list-inside">
+                <li>Lavado exterior a mano</li>
+                <li>Secado con microfibra</li>
+                <li>Limpieza de vidrios</li>
+              </ul>
+              <p className="text-xs text-gray-400 mb-2">
+                Duración aprox. 30 min.
+              </p>
+            </div>
+
+            {/* Full */}
+            <div className="mt-4">
+              <div className="flex items-center justify-between">
+                <span className="font-semibold text-yellow-300">Full</span>
+                <div className="relative inline-flex items-baseline text-2xl font-bold text-white px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
+                  $9.000
+                  <span className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-white/20 to-transparent opacity-30"></span>
+                </div>
+              </div>
+              <ul className="mt-2 mb-2 text-gray-200 text-sm list-disc list-inside">
+                <li>Lavado exterior a mano y detallado de llantas</li>
+                <li>Secado con microfibra</li>
+                <li>Limpieza de vidrios y zócalos</li>
+                <li>Aspirado interior básico</li>
+              </ul>
+              <p className="text-xs text-gray-400 mb-2">
+                Duración aprox. 45–60 min.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-6">
+            <a
+              href="#reservar-turno"
+              className="inline-block w-full text-center bg-teal-500 hover:bg-teal-700 text-white font-semibold py-3 px-4 rounded-md shadow-md transition"
+            >
+              Reservar Turno
+            </a>
+            <p className="mt-3 text-xs text-gray-400">
+              Coordinación por WhatsApp.
+            </p>
+          </div>
+        </div>
+
         {/* Camioneta */}
         <div className="flex flex-col justify-between p-6 bg-black/40 border border-white/10 rounded-xl shadow-md">
           <div>
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center space-x-3 mb-2">
               <svg
                 className="w-8 h-8 text-teal-400"
                 viewBox="0 0 24 24"
@@ -185,25 +209,50 @@ export const Servicios = () => {
               </svg>
               <div>
                 <h3 className="text-xl font-semibold text-white drop-shadow">
-                  Camioneta
+                  Camionetas
                 </h3>
                 <p className="text-sm text-gray-300">4x4 / Pick-up / SUV</p>
               </div>
             </div>
 
-            <div className="mt-4 text-center">
-              <div className="inline-flex items-baseline text-3xl font-bold text-white drop-shadow-lg">
-                $3.500
+            {/* Express */}
+            <div className="mt-2">
+              <div className="flex items-center justify-between">
+                <span className="font-semibold text-teal-300">Express</span>
+                <div className="relative inline-flex items-baseline text-2xl font-bold text-white px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
+                  $11.000
+                  <span className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-white/20 to-transparent opacity-30"></span>
+                </div>
               </div>
-              <div className="text-sm text-gray-300">Servicio completo</div>
+              <ul className="mt-2 mb-2 text-gray-200 text-sm list-disc list-inside">
+                <li>Lavado exterior a mano</li>
+                <li>Secado y limpieza de llantas</li>
+                <li>Limpieza de vidrios</li>
+              </ul>
+              <p className="text-xs text-gray-400 mb-2">
+                Duración aprox. 45 min.
+              </p>
             </div>
 
-            <ul className="mt-6 space-y-2 text-gray-200">
-              <li>Lavado exterior a mano + desincrustado</li>
-              <li>Secado, limpieza de llantas y plásticos</li>
-              <li>Aspirado interior y limpieza de tapizados (básico)</li>
-              <li>Desplazamiento hasta 10 km incluido</li>
-            </ul>
+            {/* Full */}
+            <div className="mt-4">
+              <div className="flex items-center justify-between">
+                <span className="font-semibold text-yellow-300">Full</span>
+                <div className="relative inline-flex items-baseline text-2xl font-bold text-white px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
+                  $14.000
+                  <span className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-white/20 to-transparent opacity-30"></span>
+                </div>
+              </div>
+              <ul className="mt-2 mb-2 text-gray-200 text-sm list-disc list-inside">
+                <li>Lavado exterior a mano + desincrustado</li>
+                <li>Secado, limpieza de llantas y plásticos</li>
+                <li>Aspirado y limpieza interior (básico)</li>
+                <li>Limpieza de vidrios y zócalos</li>
+              </ul>
+              <p className="text-xs text-gray-400 mb-2">
+                Duración aprox. 60–90 min.
+              </p>
+            </div>
           </div>
 
           <div className="mt-6">
@@ -214,7 +263,7 @@ export const Servicios = () => {
               Reservar Turno
             </a>
             <p className="mt-3 text-xs text-gray-400">
-              Duración aprox. 60–90 min. Consultar extras.
+              Consultar extras por WhatsApp.
             </p>
           </div>
         </div>

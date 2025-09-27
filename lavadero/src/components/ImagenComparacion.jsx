@@ -25,8 +25,7 @@ export const ImagenComparacion = () => {
         </div>
 
         <p className="mt-6 text-gray-100 text-lg font-bold sm:text-xl px-2 drop-shadow-lg">
-          Mirá cómo transformamos tu vehículo con nuestro servicio de lavado
-          premium.
+          Mirá cómo transformamos tu vehículo con nuestro servicio de lavados.
         </p>
 
         {/* Botones */}

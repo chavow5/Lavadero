@@ -13,7 +13,7 @@ export const Aboutus = () => {
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
             Hola, Mi nombre es David
-            <br className="hidden md:block" />y este es mi emprendimiento 🚗🧽💦{" "}
+            <br className="hidden md:block" /> y este es mi emprendimiento 🚗🧽💦{" "}
             <span className="inline-block text-teal-300">
               Lavadero a Domicilio
             </span>
