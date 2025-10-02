@@ -78,7 +78,7 @@ export const Servicios = () => {
 
           <div className="mt-6">
             <a
-              href="#reservar-turno"
+              href="#turnos"
               className="inline-block w-full text-center bg-teal-500 hover:bg-teal-700 text-white font-semibold py-3 px-4 rounded-md shadow-md transition"
             >
               Reservar Turno
@@ -177,7 +177,7 @@ export const Servicios = () => {
 
           <div className="mt-6">
             <a
-              href="#reservar-turno"
+              href="#turnos"
               className="inline-block w-full text-center bg-teal-500 hover:bg-teal-700 text-white font-semibold py-3 px-4 rounded-md shadow-md transition"
             >
               Reservar Turno
@@ -276,7 +276,7 @@ export const Servicios = () => {
 
           <div className="mt-6">
             <a
-              href="#reservar-turno"
+              href="#turno"
               className="inline-block w-full text-center bg-teal-500 hover:bg-teal-700 text-white font-semibold py-3 px-4 rounded-md shadow-md transition"
             >
               Reservar Turno
