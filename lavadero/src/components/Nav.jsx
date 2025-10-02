@@ -14,23 +14,8 @@ export const Nav = () => {
             title="Lavadero"
             className="inline-flex items-center"
           >
-            <svg
-              className="w-8 text-teal-400"
-              viewBox="0 0 24 24"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeMiterlimit="10"
-              stroke="currentColor"
-              fill="none"
-            >
-              <rect x="3" y="1" width="7" height="12" />
-              <rect x="3" y="17" width="7" height="6" />
-              <rect x="14" y="1" width="7" height="6" />
-              <rect x="14" y="11" width="7" height="12" />
-            </svg>
-            <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase">
-              Lavadero
+            <span className="text-3xl font-bold tracking-wide bg-gradient-to-r from-sky-400 via-white to-sky-300 bg-clip-text text-transparent animate-water">
+              Lavadero a Domicilio
             </span>
           </a>
 
@@ -39,7 +24,7 @@ export const Nav = () => {
             <li>
               <a
                 href="#aboutus"
-                className="text-white hover:text-teal-400 transition"
+                className="text-white hover:text-sky-400 transition"
               >
                 Quiénes somos
               </a>
@@ -47,7 +32,7 @@ export const Nav = () => {
             <li>
               <a
                 href="#servicios"
-                className="text-white hover:text-teal-400 transition"
+                className="text-white hover:text-sky-400 transition"
               >
                 Servicios
               </a>
@@ -55,7 +40,7 @@ export const Nav = () => {
             <li>
               <a
                 href="#turnos"
-                className="text-white hover:text-teal-400 transition"
+                className="text-white hover:text-sky-400 transition"
               >
                 Turnos
               </a>
@@ -63,15 +48,15 @@ export const Nav = () => {
             <li>
               <a
                 href="#contacto"
-                className="text-white hover:text-teal-400 transition"
+                className="text-white hover:text-sky-400 transition"
               >
                 Contacto
               </a>
             </li>
             <li>
               <a
-                href="#reservar-turno"
-                className="bg-teal-500 hover:bg-teal-700 text-white px-5 py-2 rounded-md shadow-md transition"
+                href="#turnos"
+                className="bg-teal-500 hover:bg-sky-700 text-white px-5 py-2 rounded-md shadow-md transition"
               >
                 Reservar Turno
               </a>

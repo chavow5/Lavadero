@@ -7,8 +7,8 @@ export const ImagenComparacion = () => {
       className="relative min-h-[70vh] flex flex-col items-center justify-start px-4 pt-32 pb-10 text-center text-white"
     >
       <div className="w-full max-w-md sm:max-w-2xl">
-        <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 tracking-wide drop-shadow-lg">
-          Antes y Después 🚗💦
+        <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 tracking-wide drop-shadow-lg ">
+          Antes y Después 🚗🧽💦
         </h1>
 
         {/* Comparador */}
@@ -38,7 +38,7 @@ export const ImagenComparacion = () => {
           </a>
           <a
             href="#servicios"
-            className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300"
+            className="inline-block bg-blue-400 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300"
           >
             Ver Servicios
           </a>

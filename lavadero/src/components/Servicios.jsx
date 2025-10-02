@@ -23,7 +23,7 @@ export const Servicios = () => {
           <div>
             <div className="flex items-center space-x-3">
               <svg
-                className="w-8 h-8 text-teal-400"
+                className="w-8 h-8 text-sky-400"
                 viewBox="0 0 24 24"
                 fill="none"
               >
@@ -53,24 +53,26 @@ export const Servicios = () => {
                 <h3 className="text-xl font-semibold text-white drop-shadow">
                   Motos
                 </h3>
-                <p className="text-sm text-gray-300">
-                  Moto Pequeñas y Grandes
-                </p>
+                <p className="text-sm text-gray-300">Moto Pequeñas y Grandes</p>
               </div>
             </div>
 
             <div className="mt-4 text-center relative">
-              <div className="inline-flex items-baseline text-3xl font-bold text-white px-4 py-2 rounded-2xl relative backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
-                $6.000
+              <div className="relative inline-flex items-baseline text-2xl font-bold px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
+                <span className="bg-gradient-to-r from-sky-400 via-white to-sky-300 bg-clip-text text-transparent animate-water">
+                  $6.000
+                </span>
                 <span className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-white/20 to-transparent opacity-30"></span>
               </div>
               <div className="text-sm text-gray-300 mt-2">Rápido y eficaz</div>
+
             </div>
 
-            <ul className="mt-6 space-y-2 text-gray-200">
+            <ul className="mt-2 mb-2 text-gray-200 text-sm list-disc list-inside">
               <li>Lavado exterior y cuidado de plásticos</li>
               <li>Secado y nutrición de plásticos</li>
               <li>Limpieza de casco (si corresponde)</li>
+              <li>Aplicación de cera para mayor brillo</li>
             </ul>
           </div>
 
@@ -90,29 +92,32 @@ export const Servicios = () => {
         {/* Auto */}
         <div className="flex flex-col justify-between p-6 bg-black/40 border border-white/10 rounded-xl shadow-md">
           <div>
-            <div className="flex items-center space-x-3 mb-2">
+            <div className="flex items-center space-x-3">
               <svg
-                className="w-8 h-8 text-teal-400"
+                className="w-8 h-8 text-sky-400"
                 viewBox="0 0 24 24"
                 fill="none"
               >
                 <path
-                  d="M3 12l1.5-4.5h15L21 12"
+                  d="M3 12h3l2-4h6l2 4h2"
                   stroke="currentColor"
                   strokeWidth="1.5"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 />
-                <rect
-                  x="3"
-                  y="12"
-                  width="18"
-                  height="6"
-                  rx="1.5"
+                <circle
+                  cx="7"
+                  cy="18"
+                  r="2"
                   stroke="currentColor"
                   strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                />
+                <circle
+                  cx="17"
+                  cy="18"
+                  r="2"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
                 />
               </svg>
               <div>
@@ -127,15 +132,19 @@ export const Servicios = () => {
             <div className="mt-2">
               <div className="flex items-center justify-between">
                 <span className="font-semibold text-teal-300">Express</span>
-                <div className="relative inline-flex items-baseline text-2xl font-bold text-white px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
-                  $7.500
+                <div className="relative inline-flex items-baseline text-2xl font-bold px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
+                  <span className="bg-gradient-to-r from-sky-400 via-white to-sky-300 bg-clip-text text-transparent animate-water">
+                    $8000
+                  </span>
                   <span className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-white/20 to-transparent opacity-30"></span>
                 </div>
               </div>
               <ul className="mt-2 mb-2 text-gray-200 text-sm list-disc list-inside">
                 <li>Lavado exterior a mano</li>
+                <li>limpieza de llantas + caucho</li>
                 <li>Secado con microfibra</li>
                 <li>Limpieza de vidrios</li>
+                <li>Aplicación de cera para mayor brillo y cuidado</li>
               </ul>
               <p className="text-xs text-gray-400 mb-2">
                 Duración aprox. 30 min.
@@ -146,8 +155,10 @@ export const Servicios = () => {
             <div className="mt-4">
               <div className="flex items-center justify-between">
                 <span className="font-semibold text-yellow-300">Full</span>
-                <div className="relative inline-flex items-baseline text-2xl font-bold text-white px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
-                  $9.000
+                <div className="relative inline-flex items-baseline text-2xl font-bold px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
+                  <span className="bg-gradient-to-r from-sky-400 via-white to-sky-300 bg-clip-text text-transparent animate-water">
+                    $12.000
+                  </span>
                   <span className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-white/20 to-transparent opacity-30"></span>
                 </div>
               </div>
@@ -156,6 +167,7 @@ export const Servicios = () => {
                 <li>Secado con microfibra</li>
                 <li>Limpieza de vidrios y zócalos</li>
                 <li>Aspirado interior básico</li>
+                <li>Aplicación de cera para mayor brillo y cuidado </li>
               </ul>
               <p className="text-xs text-gray-400 mb-2">
                 Duración aprox. 45–60 min.
@@ -181,7 +193,7 @@ export const Servicios = () => {
           <div>
             <div className="flex items-center space-x-3 mb-2">
               <svg
-                className="w-8 h-8 text-teal-400"
+                className="w-8 h-8 text-sky-400"
                 viewBox="0 0 24 24"
                 fill="none"
               >
@@ -219,15 +231,18 @@ export const Servicios = () => {
             <div className="mt-2">
               <div className="flex items-center justify-between">
                 <span className="font-semibold text-teal-300">Express</span>
-                <div className="relative inline-flex items-baseline text-2xl font-bold text-white px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
-                  $11.000
+                <div className="relative inline-flex items-baseline text-2xl font-bold px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
+                  <span className="bg-gradient-to-r from-sky-400 via-white to-sky-300 bg-clip-text text-transparent animate-water">
+                    $13.000
+                  </span>
                   <span className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-white/20 to-transparent opacity-30"></span>
                 </div>
               </div>
               <ul className="mt-2 mb-2 text-gray-200 text-sm list-disc list-inside">
                 <li>Lavado exterior a mano</li>
-                <li>Secado y limpieza de llantas</li>
+                <li>Secado y limpieza de llantas + caucho</li>
                 <li>Limpieza de vidrios</li>
+                <li>Aplicación de cera para mayor brillo y cuidado</li>
               </ul>
               <p className="text-xs text-gray-400 mb-2">
                 Duración aprox. 45 min.
@@ -238,16 +253,20 @@ export const Servicios = () => {
             <div className="mt-4">
               <div className="flex items-center justify-between">
                 <span className="font-semibold text-yellow-300">Full</span>
-                <div className="relative inline-flex items-baseline text-2xl font-bold text-white px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
-                  $14.000
+                <div className="relative inline-flex items-baseline text-2xl font-bold px-3 py-1 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
+                  <span className="bg-gradient-to-r from-sky-400 via-white to-sky-300 bg-clip-text text-transparent animate-water">
+                    $17.000
+                  </span>
                   <span className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-white/20 to-transparent opacity-30"></span>
                 </div>
               </div>
               <ul className="mt-2 mb-2 text-gray-200 text-sm list-disc list-inside">
-                <li>Lavado exterior a mano + desincrustado</li>
-                <li>Secado, limpieza de llantas y plásticos</li>
+                <li>Lavado exterior a mano</li>
+                <li>Secado, limpieza de llantas y plásticos + caucho</li>
                 <li>Aspirado y limpieza interior (básico)</li>
                 <li>Limpieza de vidrios y zócalos</li>
+                <li>Aplicación de cera para mayor brillo y cuidado</li>
+
               </ul>
               <p className="text-xs text-gray-400 mb-2">
                 Duración aprox. 60–90 min.
@@ -269,7 +288,7 @@ export const Servicios = () => {
         </div>
       </div>
 
-      <p className="mt-8 text-sm text-gray-400 text-center max-w-2xl mx-auto">
+      <p className="mt-8 text-sm text-white-400 text-center max-w-2xl mx-auto">
         Precios orientativos. El precio final puede variar según el estado del
         vehículo y la ubicación. Para servicios especiales o mayor distancia,
         consultanos por WhatsApp.

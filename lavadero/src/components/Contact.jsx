@@ -66,7 +66,7 @@ function Contact() {
           rel="noopener noreferrer"
           className="flex items-center gap-2 bg-green-600 hover:bg-green-700 px-4 py-2 rounded-full shadow-lg"
         >
-          <img src="/img/whatsapp.svg" alt="WhatsApp" className="w-5 h-5" />
+          <img src="https://www.vhv.rs/dpng/d/514-5145428_whatsapp-messenger-transparent-image-logo-whatsapp-svg-hd.png" alt="WhatsApp" className="w-5 h-5" />
           <span>WhatsApp: 3804201334</span>
         </a>
 
@@ -76,7 +76,7 @@ function Contact() {
           rel="noopener noreferrer"
           className="flex items-center gap-2 bg-pink-600 hover:bg-pink-700 px-4 py-2 rounded-full shadow-lg"
         >
-          <img src="/img/instagram.svg" alt="Instagram" className="w-5 h-5" />
+          <img src="https://iconmonstr.com/wp-content/releases/preview/2016/240/iconmonstr-instagram-11.png" alt="Instagram" className="w-5 h-5" />
           <span>@lavaderoadomicilio</span>
         </a>
       </div>
