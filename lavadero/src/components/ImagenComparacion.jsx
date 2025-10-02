@@ -8,7 +8,7 @@ export const ImagenComparacion = () => {
     >
       <div className="w-full max-w-md sm:max-w-2xl">
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 tracking-wide drop-shadow-lg ">
-          Antes y Después 🚗🧽💦
+          un Antes y un Después... 🚗🧽💦
         </h1>
 
         {/* Comparador */}
