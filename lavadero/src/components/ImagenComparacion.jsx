@@ -31,7 +31,7 @@ export const ImagenComparacion = () => {
         {/* Botones */}
         <div className="mt-8 flex flex-col sm:flex-row sm:justify-center sm:space-x-4 space-y-4 sm:space-y-0">
           <a
-            href="#reservar-turno"
+            href="#turnos"
             className="inline-block bg-teal-500 hover:bg-teal-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300"
           >
             Reservar Turno
